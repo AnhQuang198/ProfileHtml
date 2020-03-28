@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    background-color: #efefef;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #999;
+}
+
+.container {
+    margin: 0px 125px;
+    padding: 0px 20px;
+}
+
+.container .left-profile {
+    margin-right: 20px;
+    background-color: #FFF;
+}
+
+.container .right-profile {
+    background-color: #FFF;
+}
+
+.container .left-profile .avatar {
+    width: 278px;
+    height: 262px;
+    background-image: url('./iu-image.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container .left-profile .contact {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .left-profile .contact > div > img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.container .left-profile .copyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.container .left-profile .footer {
+    padding: 20px 0px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information > h2 {
+    font-weight: bold;
+    color: #000;
+}
