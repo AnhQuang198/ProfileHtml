@@ -68,3 +68,71 @@ body {
     font-weight: bold;
     color: #000;
 }
+
+.container .right-profile {
+    display: block;
+}
+
+.main-title {
+    border-bottom: 1px solid #efefef;
+    padding: 20px 10px 2px 40px;
+}
+
+.main-title h1 {
+    font-size: 15px;
+    color: #333;
+    font-family: 'open_sansextrabold',Arial,sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content {
+    padding: 20px 40px;
+}
+
+.content .block-content {
+    margin-bottom: 30px;
+}
+
+.content .block-content .name-content h1 {
+    color: #333;
+    font-size: 28px;
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content .block-content .name-content h3 {
+    font-size: 22px;
+    color: #777;
+    font-family: 'open_sanslight',Arial,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content .block-content .description {
+    display: flex;
+    flex-direction: row;
+}
+
+.content .block-content .description p {
+    line-height: 20px;
+    align-content: center;
+}
+
+.content .block-content .description .left-description {
+    padding-right: 30px;
+}
+
+.content .table-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content .table-contact table {
+    border: 1px solid #dddddd;
+}
