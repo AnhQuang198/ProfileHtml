@@ -1,0 +1,253 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", arial, tahoma;
+  font-weight: normal;
+  background-color: #FFF;
+  color: #000000;
+}
+
+.menu-horizontal {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.menu-horizontal li {
+  padding: 18px 20px;
+}
+
+.menu-horizontal li a {
+  color: #222222;
+}
+
+.menu-horizontal li a:hover {
+  text-decoration: none;
+  color: #56cfe1;
+  transition: color 0.3s;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.logo a img {
+  width: 96px;
+  height: 27px;
+}
+
+.list-icon-right {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.list-icon-right > div {
+    padding: 20px 18px 16px 0px;
+}
+
+.list-icon-right > div > a > img {
+    width: 20px;
+}
+
+.has-submenu {
+  position: relative;
+  transition: display 0.4s;
+}
+
+.dropdown-submenu {
+  position: absolute;
+  list-style-type: none;
+  padding: 0px;
+  display: none;
+  left: 0px;
+  top: 100%;
+}
+
+.dropdown-submenu li {
+  padding: 10px 20px;
+}
+
+.has-submenu:hover .dropdown-submenu {
+  display: block;
+}
+
+.carousel-item {
+  height: 80vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.banner .container-fluid {
+  padding: 0px;
+}
+
+.nav-container .menu-icon {
+  display: none;
+}
+
+.content-heading {
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-item {
+  width: 270px;
+  height: 360px;
+  background-image: url('./static/images/item1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px 15px;
+}
+
+.product-item .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.5s;
+  position: relative;
+}
+
+.btn-add-to-cart {
+  width: 130px;
+  height: 40px;
+  border-radius: 40px;
+  border: solid 1px #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  color: #FFF;
+  left: 66px;
+}
+
+.product-item:hover .overlay {
+  opacity: 1;
+}
+
+.product-item:hover {
+  background-image: url('./static/images/item2.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s;
+}
+
+.product-trending {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.brand-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 5px;
+}
+
+.brand-item .item {
+  width: 180px;
+  height: 170px;
+  background-image: url('./static/images/brand.png');
+  background-size: cover;
+  background-position: center;
+  margin: 0px 10px;
+}
+
+.description .container-fluid {
+  padding:  0px;
+}
+
+.description .bg-image {
+  background-image: url('./static/images/bg-image.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+.description h3 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.description .content {
+  margin: 40px 100px;
+}
+
+/* .content-heading h3::after {
+  content: '';
+  width: 60px;
+  height: 2px;
+  background: #000000;
+  position: absolute;
+  top: 80%;
+  right: 565px;
+}
+
+.content-heading h3::before {
+  content: '';
+  width: 60px;
+  height: 2px;
+  background: #000000;
+  position: absolute;
+  top: 104%;
+  left: 565px;
+} */
+
+/* @media screen and (max-width: 800px) {
+  .nav-container .menu-icon {
+    display: block;
+  }
+
+  .logo {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .menu-horizontal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    display: block;
+  }
+
+  .menu-horizontal li a {
+    display: block;
+    justify-content: center;
+  }
+
+} */
